@@ -1017,7 +1017,7 @@ input:focus {
   left: 25px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  display: none;
+  display: none !important;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1026,9 +1026,9 @@ input:focus {
 
 @media (min-width: 992px) {
   .slick-dots {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
   }
 }
 
