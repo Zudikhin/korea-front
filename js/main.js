@@ -24,4 +24,20 @@ $(document).ready(function () {
       return '<a class="dot"></a>';
     },
   });
+
+  $(".product__item .drop h5").click(function () {
+    $(this).parent().toggleClass("active");
+  });
+
+  $(".description_slider .slider").slick({
+    prevArrow: $(".btns .prev"),
+    nextArrow: $(".btns .next"),
+    slidesToShow: 1,
+  });
+
+  $(".sale__slider").slick({
+    prevArrow: $(".sale .btns .prev"),
+    nextArrow: $(".sale .btns .next"),
+    slidesToShow: 3,
+  });
 });
