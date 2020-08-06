@@ -3805,6 +3805,12 @@ input:focus {
   }
 }
 
+@media (min-width: 1366px) {
+  .shop-cart .cart__main .cart__list .item {
+    width: 520px;
+  }
+}
+
 @media (min-width: 1440px) {
   .shop-cart .cart__main .cart__list .item {
     width: 540px;
@@ -3842,7 +3848,20 @@ input:focus {
 @media (min-width: 768px) {
   .shop-cart .cart__main .cart__list .item .img {
     min-width: 100px;
+    max-width: 100px;
     height: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .shop-cart .cart__main .cart__list .item .img {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .shop-cart .cart__main .cart__list .item .img {
+    max-width: 100px;
   }
 }
 
