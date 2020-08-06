@@ -3827,6 +3827,7 @@ input:focus {
 
 .shop-cart .cart__main .cart__list .item .img {
   min-width: 65px;
+  max-width: 65px;
   height: 58px;
   display: block;
 }
@@ -3834,6 +3835,7 @@ input:focus {
 @media (min-width: 400px) {
   .shop-cart .cart__main .cart__list .item .img {
     min-width: 85px;
+    max-width: 85px;
     height: 76px;
   }
 }
