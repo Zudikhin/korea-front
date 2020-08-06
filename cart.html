@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <meta name="author" content="Yuriy Zudikhin" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header__mobile">
+              <div class="left">
+                <button class="header__mobile_btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <a class="header__mobile_logo" href="">
+                  <img src="img/header/logo.png" alt="" />
+                </a>
+              </div>
+              <div class="right">
+                <button class="header__mobile_search">
+                  <img src="img/header/magnifier.svg" alt="" />
+                </button>
+                <a class="header__mobile_cart" href="#">
+                  <img src="img/header/cart-mob.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 offset-lg-3">
+            <div class="header__desktop header__desktop-shop">
+              <div class="logo">
+                <a href="#"><img src="img/header/logo.png" alt="" /></a>
+              </div>
+              <a class="header__desktop_cart" href="">
+                <img src="img/header/cart_desk.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="header__mobile_nav">
+      <ul class="nav">
+        <li class="active"><a href="#">Главная</a></li>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">Блог</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <div class="btns">
+        <a class="header__mobile_nav_catalog" href="#"
+          >Каталог <img src="img/header/arrow-right.png" alt=""
+        /></a>
+        <a class="header__mobile_nav_shares" href="#"
+          >Акции <img src="img/header/arrow-right.png" alt=""
+        /></a>
+      </div>
+      <ul class="links">
+        <li>
+          <a target="_blank" href="#"
+            ><img src="img/header/insta.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="#"><img src="img/header/vk.svg" alt="" /></a>
+        </li>
+        <li>
+          <a target="_blank" href="#"
+            ><img src="img/header/facebook.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="#"
+            ><img src="img/header/tel.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="#"
+            ><img src="img/header/whatsup.svg" alt=""
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="shop shop-cart">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="categories__sidebar">
+              <div class="top">
+                <ul>
+                  <li class="active"><a href="#">Главная</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Доставка и оплата</a></li>
+                  <li><a href="#">Блог</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="btns">
+                  <a class="btns__catalog" href="#"
+                    >Каталог<img src="img/sidebar/arrow-right.png" alt=""
+                  /></a>
+                  <a class="btns__shares" href="#"
+                    >Акции <img src="img/sidebar/arrow-right.png" alt=""
+                  /></a>
+                </div>
+                <div class="form">
+                  <form action="">
+                    <input type="text" placeholder="Поиск" />
+                    <button>
+                      <img src="img/sidebar/magnifier.svg" alt="" />
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="item">
+                  <h5>Адрес магазина</h5>
+                  <p>
+                    Маршала Неделина, 6а <br />
+                    Одинцово, Московская область <br />
+                    ​Бизнес-центр​ 1 этажей
+                  </p>
+                </div>
+                <div class="item">
+                  <h5>Телефон</h5>
+                  <a href="tel:+7(926)932-87-64">+7 (926) 932-87-64</a>
+                </div>
+                <div class="item">
+                  <h5>Почта</h5>
+                  <a href="mailto:korea-box@yandex.ru">korea-box@yandex.ru</a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#"><img src="img/sidebar/insta.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/sidebar/vk.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/sidebar/facebook.svg" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/sidebar/wup.svg" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-9">
+            <div class="product__breadcrumb">
+              <a href="#"><img src="img/product/arrow.svg" alt="" /></a>
+              <h6>Корзина</h6>
+            </div>
+            <h3 class="title__cart">Корзина</h3>
+            <div class="cart__main">
+              <div class="cart__list">
+                <div class="item">
+                  <a href="#" class="img">
+                    <img src="img/shop/1.png" alt="" />
+                  </a>
+                  <div class="text">
+                    <a class="title" href="#"
+                      >CERACLINIC Raw Solution Centella</a
+                    >
+                    <div class="price">
+                      <div class="price__value">
+                        <span class="discount">660.00₽</span>
+                        <span class="current">660.00₽</span>
+                      </div>
+                      <div class="dies">
+                        <span class="discount">-10%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="general">
+                    <div class="counter">
+                      <button class="prev">
+                        <img src="img/cart/left.svg" alt="" />
+                      </button>
+                      <span>1</span>
+                      <button class="next">
+                        <img src="img/cart/right.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="sum">
+                      <span>660.00₽</span>
+                    </div>
+                    <a class="remove" href="#"
+                      ><img src="img/cart/cart__icon.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="img">
+                    <img src="img/shop/1.png" alt="" />
+                  </a>
+                  <div class="text">
+                    <a class="title" href="#"
+                      >CERACLINIC Raw Solution Centella</a
+                    >
+                    <div class="price">
+                      <div class="price__value">
+                        <span class="discount">660.00₽</span>
+                        <span class="current">660.00₽</span>
+                      </div>
+                      <div class="dies">
+                        <span class="discount">-10%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="general">
+                    <div class="counter">
+                      <button class="prev">
+                        <img src="img/cart/left.svg" alt="" />
+                      </button>
+                      <span>1</span>
+                      <button class="next">
+                        <img src="img/cart/right.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="sum">
+                      <span>660.00₽</span>
+                    </div>
+                    <a class="remove" href="#"
+                      ><img src="img/cart/cart__icon.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="img">
+                    <img src="img/shop/1.png" alt="" />
+                  </a>
+                  <div class="text">
+                    <a class="title" href="#"
+                      >CERACLINIC Raw Solution Centella</a
+                    >
+                    <div class="price">
+                      <div class="price__value">
+                        <span class="discount">660.00₽</span>
+                        <span class="current">660.00₽</span>
+                      </div>
+                      <div class="dies">
+                        <span class="discount">-10%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="general">
+                    <div class="counter">
+                      <button class="prev">
+                        <img src="img/cart/left.svg" alt="" />
+                      </button>
+                      <span>1</span>
+                      <button class="next">
+                        <img src="img/cart/right.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="sum">
+                      <span>660.00₽</span>
+                    </div>
+                    <a class="remove" href="#"
+                      ><img src="img/cart/cart__icon.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__general">
+                <div class="cart__general-default">
+                  <span class="name">Количество товаров</span>
+                  <span class="value">3 шт.</span>
+                </div>
+
+                <div class="form">
+                  <p>Если у вас есть код купона, примените его ниже.</p>
+                  <form action="">
+                    <label for="">
+                      <input type="text" placeholder="Код купона" />
+                      <button>Применить купон</button>
+                    </label>
+                  </form>
+                </div>
+
+                <div class="cart__general-default">
+                  <span class="name">Купон:</span>
+                  <span class="value">LETO</span>
+                </div>
+
+                <div class="cart__general-default">
+                  <span class="name">Скидка:</span>
+                  <span class="value">-10%</span>
+                </div>
+
+                <div class="cart__general-default">
+                  <span class="name">Сумма заказа:</span>
+                  <span class="value">3620.00₽</span>
+                </div>
+
+                <div class="cart__general-outcome">
+                  <span class="name">Итог:</span>
+                  <span class="value">3410.00₽</span>
+                </div>
+
+                <a class="cart__general_link" href="#">Оформить заказ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer__main">
+              <div class="left">
+                <span class="rights">2020 ©Все права защищены</span>
+                <a href="#">Политика конфиденциальности</a>
+              </div>
+              <div class="right">
+                <span class="develop"
+                  >Сайт разработан в компании MUKA — Digital agency</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="header__modal"></div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(".shop__list_categories ul").mCustomScrollbar({
+        axis: "x", // horizontal scrollbar
+      });
+    </script>
+  </body>
+</html>
