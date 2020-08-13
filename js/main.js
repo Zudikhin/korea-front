@@ -40,4 +40,10 @@ $(document).ready(function () {
     nextArrow: $(".sale .btns .next"),
     slidesToShow: 3,
   });
+
+  $("#city").niceSelect();
+
+  $("#punkt").niceSelect();
+
+  $("input[type='tel']").mask("+7 (999) 999-99-99");
 });
